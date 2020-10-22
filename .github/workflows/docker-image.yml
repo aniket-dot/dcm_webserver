@@ -25,5 +25,5 @@ jobs:
         docker login -u $USER -p $PASS
         
         docker push aniket-dot/dcmwebserver:latest
-      docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+      
       
