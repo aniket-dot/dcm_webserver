@@ -24,6 +24,6 @@ jobs:
         docker build . --file Dockerfile --tag aniket-dot/dcmwebserver:latest
         docker login -u $USER -p $PASS
         
-       docker push aniket-dot/dcmwebserver:latest
+        docker push aniket-dot/dcmwebserver:latest
       
       
