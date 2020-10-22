@@ -18,7 +18,7 @@ jobs:
       env:
         USER: ${{secrate.USER}}
         PASS: ${{secrate.PASS}}    
-      run: 
+      run: |
         echo $USER
         echo $PASS
         docker build . --file Dockerfile --tag aniket-dot/dcmwebserver:latest
